@@ -3,8 +3,9 @@ import pandas as pd
 import pickle
 
 # Load trained model
-with open("inventory_forecast_model.pkl", "rb") as f:
-    model = pickle.load(f)
+import joblib
+
+model = joblib.load("inventory_forecast_model.joblib")
 
 st.title("Retail Inventory Demand Forecasting")
 
