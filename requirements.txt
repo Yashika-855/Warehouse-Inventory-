@@ -1,4 +1,5 @@
+scikit-learn==1.6.1
+joblib==1.X.X
 streamlit
 pandas
-scikit-learn
 numpy
